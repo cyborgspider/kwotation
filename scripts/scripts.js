@@ -35,7 +35,7 @@ $(function(){
     parseRSS('http://www.quotesdaddy.com/feed/tagged/Love','#love');
     parseRSS('http://www.quotesdaddy.com/feed/tagged/Funny','#humor');
     $('nav a').click(function(e){
-      e.preventDefault();
+      //e.preventDefault();
       var currentSection = this.getAttribute('href');
       $(currentSection).addClass('active');
       $(currentSection).siblings().removeClass();
