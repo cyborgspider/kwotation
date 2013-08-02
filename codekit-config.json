@@ -2,27 +2,15 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8317",
   "files" : {
-    "\/scripts\/scripts.coffee" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/scripts\/scripts.coffee",
-      "checkOutputStyle" : 0,
-      "minifyOutput" : 1,
-      "outputAbbreviatedPath" : "\/build\/js\/scripts.js",
-      "outputStyle" : 0,
-      "fileType" : 32
-    },
-    "\/styles\/layout.styl" : {
+    "\/styles\/nib.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/styles\/layout.styl",
+      "inputAbbreviatedPath" : "\/styles\/nib.styl",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/styles\/build\/css\/layout.css",
+      "outputAbbreviatedPath" : "\/styles\/build\/css\/nib.css",
       "fileType" : 8,
       "debugStyle" : 0
     },
@@ -49,15 +37,6 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/build\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/build\/css\/styles.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -77,6 +56,15 @@
       "compileDebug" : 1,
       "outputAbbreviatedPath" : "\/build\/index.html",
       "fileType" : 512
+    },
+    "\/build\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/build\/img\/nav-icons.png" : {
       "ignoreWasSetByUser" : 0,
@@ -111,17 +99,17 @@
       "outputAbbreviatedPath" : "\/scripts\/build\/js\/build\/js\/rss.min.min.js",
       "fileType" : 64
     },
-    "\/styles\/nib.styl" : {
+    "\/scripts\/scripts.coffee" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/styles\/nib.styl",
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/scripts\/scripts.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 1,
+      "outputAbbreviatedPath" : "\/build\/js\/scripts.js",
       "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/styles\/build\/css\/nib.css",
-      "fileType" : 8,
-      "debugStyle" : 0
+      "fileType" : 32
     }
   },
   "manualImportLinks" : [

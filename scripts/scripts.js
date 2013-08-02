@@ -21,12 +21,21 @@ function parseRSS(url,section){
   });
 };
 
+function pageSlide(){
+  totalSections = $('section').length;
+  sectionWidth = $('section').outerWidth();
+  $('section').css({"width":sectionWidth});
+  $('#wrap').css({"width":sectionWidth * totalSections});
+}
+
 //Make stuff happen
 $(function(){
+    pageSlide();
     parseRSS('http://www.quotesdaddy.com/feed/tagged/Inspirational', '#inspiration');
     parseRSS('http://www.quotesdaddy.com/feed/tagged/Love','#love');
     parseRSS('http://www.quotesdaddy.com/feed/tagged/Funny','#humor');
-    $('nav a').click(function(){
+    $('nav a').click(function(e){
+      e.preventDefault();
       var currentSection = this.getAttribute('href');
       $(currentSection).addClass('active');
       $(currentSection).siblings().removeClass();
